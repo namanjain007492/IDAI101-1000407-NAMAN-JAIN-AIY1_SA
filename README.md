@@ -1,6 +1,6 @@
 # IDAI101-1000407-NAMAN-JAIN-AIY1_SA
 AI-Based Smart Solutions: Designing Chatbots for Real-World Challenges - Smart Campus Assistant: Navigating Life on Campus with AI
-
+Link for the bot:   https://namanjain007492.github.io/IDAI101-1000407-NAMAN-JAIN-AIY1_SA/
 CampusBot – Dialogflow Documentation
 1. Project Overview
 CampusBot is a virtual assistant designed for Jain Vidyalaya to provide instant information about admissions, courses, fees, facilities, and campus life. It is built using Dialogflow ES, a natural language understanding platform that allows creation of conversational interfaces. 
