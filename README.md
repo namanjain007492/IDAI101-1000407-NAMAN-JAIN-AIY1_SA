@@ -3,14 +3,23 @@ AI-Based Smart Solutions: Designing Chatbots for Real-World Challenges - Smart C
 Link for the bot:   https://namanjain007492.github.io/IDAI101-1000407-NAMAN-JAIN-AIY1_SA/
 CampusBot – Dialogflow Documentation
 1. Project Overview
+   
 CampusBot is a virtual assistant designed for Jain Vidyalaya to provide instant information about admissions, courses, fees, facilities, and campus life. It is built using Dialogflow ES, a natural language understanding platform that allows creation of conversational interfaces. 
+
 The goal of CampusBot is to make information easily accessible to students, parents, and staff, reducing the need for manual queries and improving communication efficiency within the institution.
-2. Bot Summary
+
+3. Bot Summary
+   
 CampusBot responds to user questions about campus-related topics such as admissions, events, fees, and facilities. It uses intents and entities to understand user input and deliver accurate responses. All responses are static (no webhook or API integration). The agent operates under the Asia/Colombo timezone with English as the default language.
-3. Intents (Detailed View)
+
+5. Intents (Detailed View)
+   
 Admissions Info
+
 • Training Phrases: How can I apply?, Tell me about the admission process, What are the requirements for joining?, How do I register?
+
 • Response: You can apply online through our admission portal. Visit the Admissions page for more details.
+
 • Entities Used: None
 Contact Info
 • Training Phrases: Contact details, College phone number, Email address, How to reach campus?
@@ -48,7 +57,7 @@ Placement Info
 • Training Phrases: Placement opportunities, Companies visiting campus, Internships available
 • Response: Our Placement Cell organizes recruitment drives and guides students for internships and jobs.
 • Entities Used: None
-4. Entities (Detailed View)
+7. Entities (Detailed View)
 department
 Reference Values and Synonyms: Computer Science, Commerce, Science, Arts
 Usage: Helps CampusBot identify user queries related to this category.
@@ -64,14 +73,14 @@ Usage: Helps CampusBot identify user queries related to this category.
 facility_type
 Reference Values and Synonyms: Library, Canteen, Hostel, Gym, Club
 Usage: Helps CampusBot identify user queries related to this category.
-5. Agent Configuration
+8. Agent Configuration
 • Platform: Dialogflow ES
 • Language: English (en)
 • Time Zone: Asia/Colombo
 • ML Confidence: 0.3
 • Default Welcome Intent: Disabled
 • Webhook: Not used (static responses)
-6. Workflow Summary
+9. Workflow Summary
 When a user sends a message, Dialogflow matches it with the most relevant intent using trained phrases. Entities help extract specific details such as department names or facilities. CampusBot then replies with predefined static responses that guide the user to the appropriate information.
-7. Conclusion
+10. Conclusion
 CampusBot helps Jain Vidyalaya improve communication by answering common student queries about admissions, fees, facilities, and events instantly. In future versions, webhook integrations and live data fetching can be added for more dynamic interactions.
