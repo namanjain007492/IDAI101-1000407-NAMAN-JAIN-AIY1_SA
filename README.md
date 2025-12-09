@@ -146,3 +146,9 @@ When a user sends a message, Dialogflow matches it with the most relevant intent
 
 13. Conclusion
 CampusBot helps Jain Vidyalaya improve communication by answering common student queries about admissions, fees, facilities, and events instantly. In future versions, webhook integrations and live data fetching can be added for more dynamic interactions.
+
+14. Credits
+Name: Naman Jain
+CRS Course: Python Programming
+CRS Mentor: Syed Ali Beema S
+School: Jain Vidyalaya IB World School
